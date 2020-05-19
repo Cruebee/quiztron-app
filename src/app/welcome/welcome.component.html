@@ -1,1 +1,18 @@
-<p>welcome works!</p>
+<div class="welcome-container" *ngIf="quizList">
+  <h1 class="welcome-title">Time for a Quizzy</h1>
+  <p class="nudge-text">Pick a topic to get going!</p>
+  <div class="row quiz-options">
+    <div class="col quiz-selector" *ngFor="let quizItem of quizList">
+      <div class="card" style="width: 16rem; height: 10rem;">
+        <div class="card-body">
+          <h3 class="card-title">{{quizItem.name}}</h3>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-primary" type="button" routerLink="/{{quizItem.label}}">
+            Start
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
