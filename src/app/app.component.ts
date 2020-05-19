@@ -8,7 +8,6 @@ import { Quiz, Answers, Choice } from './quiz.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'quiztron-app';
   private answers: Answers;
   private quiz: Quiz;
   private currentQuestionIndex: number;
