@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { QuestionsService } from '../questions.service';
-import { Quiz } from '../quiz.model';
 
 @Component({
   selector: 'app-welcome',
@@ -9,19 +8,17 @@ import { Quiz } from '../quiz.model';
 })
 export class WelcomeComponent implements OnInit {
 
-  quiz: Quiz[];
+  quizList = [];
 
-  constructor(public questionsService: QuestionsService) { }
-
-  ngOnInit() {
-    this.questionsService.getQuizzes()
-      .subscribe(quiz => {
-        this.quiz = quiz
-      })
+  constructor(public questionsService: QuestionsService) {
+    this.questionsService.getQuizzes().subscribe(r => {
+      r.forEach((value, index) => {
+        this.quizList.push(r[index]);
+      });
+    });
   }
 
-  reset() {
-    this.quiz = undefined
+  ngOnInit() {
   }
 
 }
