@@ -8,11 +8,13 @@ $black: #000;
   background: linear-gradient(to bottom right, $tan, $blue);
 }
 
-.btn {
+.btn,
+.quiz-button {
   background: linear-gradient(to bottom right, $tan, $orange);
   color: $black;
   border: none;
   height: 2rem;
+  cursor: pointer;
 }
 
 .btn,

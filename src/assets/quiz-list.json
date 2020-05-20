@@ -10,5 +10,11 @@
     "name": "french",
     "description": "Questions about French!",
     "fileName": "french.json"
+  },
+  {
+    "label": "Archery",
+    "name": "archery",
+    "description": "Questions about archery!",
+    "fileName": "archery.json"
   }
 ]
