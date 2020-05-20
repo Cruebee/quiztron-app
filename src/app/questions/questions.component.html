@@ -7,7 +7,7 @@
     </app-question-form>
 
     <mat-card-actions>
-      <button class="btn btn-primary" (click)="nextOrViewResults()" [disabled]="!answers.values[currentQuestionIndex]">
+      <button class="btn quiz-button" (click)="nextOrViewResults()" [disabled]="!answers.values[currentQuestionIndex]">
         {{
           currentQuestionIndex === questions.length - 1 ? "View results" : "Next"
         }}
@@ -15,8 +15,8 @@
     </mat-card-actions>
   </div>
 
-  <div class="return-button">
-    <button class="btn btn-success">
+  <div>
+    <button class="btn return-button">
       <a routerLink="/welcome" class="btn btn-success">Return to quizzes</a>
     </button>
   </div>

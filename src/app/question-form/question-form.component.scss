@@ -1,0 +1,32 @@
+$tan: #DCC7AA;
+$orange: #F7882F;
+$yellow: #F7C331;
+$blue: #6B7A8F;
+
+.options {
+  background: linear-gradient(to bottom right, $tan, $yellow);
+  color: $blue;
+  cursor: pointer;
+  height: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+  max-width: 20rem;
+  margin: auto;
+}
+
+.questions-title {
+  color: $blue;
+  text-align: center;
+}
+
+.quiz {
+  background: linear-gradient(to bottom right, $tan, $orange);
+}
+
+.selection-indicator {
+  cursor: pointer;
+}
+
+.mat-list {
+  list-style-type: none;
+}
