@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is a d-loop?",
+    "choices": [
+      {
+        "value": "A loop of string around your wrist.",
+        "correct": false
+      },
+      {
+        "value": "A small string attatched to the main bow string to attach a release aid to.",
+        "correct": true
+      },
+      {
+        "value": "A directional loop for arrows to pass through.",
+        "correct": false
+      },
+      {
+        "value": "A dynamic loop for your fingers to go through.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is a fletching?",
+    "choices": [
+      {
+        "value": "A type of bird.",
+        "correct": false
+      },
+      {
+        "value": "A type of bow.",
+        "correct": false
+      },
+      {
+        "value": "A feather, or plastic vane to steer arrows.",
+        "correct": true
+      },
+      {
+        "value": "A barbeque grill",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is a release-aid?",
+    "choices": [
+      {
+        "value": "A mechanical device that aids in drawing and firing a bow.",
+        "correct": true
+      },
+      {
+        "value": "A substance to help you release tension.",
+        "correct": false
+      },
+      {
+        "value": "A compound to help you release your bowels.",
+        "correct": false
+      },
+      {
+        "value": "A grease or lubricant to help arrows release the string.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What does FOC mean?",
+    "choices": [
+      {
+        "value": "Formal Open Carry.",
+        "correct": false
+      },
+      {
+        "value": "Fill Open Container",
+        "correct": false
+      },
+      {
+        "value": "Fire On Command",
+        "correct": false
+      },
+      {
+        "value": "Front Of Center",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "How long has archery been around?",
+    "choices": [
+      {
+        "value": "Only the last 200 years.",
+        "correct": false
+      },
+      {
+        "value": "Less than 500 years.",
+        "correct": false
+      },
+      {
+        "value": "About 10,000 years.",
+        "correct": true
+      },
+      {
+        "value": "Around 5,000 years.",
+        "correct": false
+      }
+    ]
+  }
+]
