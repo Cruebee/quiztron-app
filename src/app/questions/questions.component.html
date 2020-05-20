@@ -15,5 +15,11 @@
     </mat-card-actions>
   </div>
 
+  <div class="return-button">
+    <button class="btn btn-success">
+      <a routerLink="/welcome" class="btn btn-success">Return to quizzes</a>
+    </button>
+  </div>
+
   <app-results *ngIf="showResults" [answers]="answers"></app-results>
 </mat-card>
