@@ -23,7 +23,7 @@ export class QuestionsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private questionsService: QuestionsService
+    public questionsService: QuestionsService
   ) { }
 
   ngOnInit() {
@@ -42,7 +42,7 @@ export class QuestionsComponent implements OnInit {
     this.answers.values[this.currentQuestionIndex] = choice;
   }
 
-  nextorViewResults() {
+  nextOrViewResults() {
     if (this.currentQuestionIndex === this.questions.length - 1) {
       this.showResults = true;
       return;
@@ -57,5 +57,4 @@ export class QuestionsComponent implements OnInit {
     this.answers = undefined;
     this.currentQuestionIndex = undefined;
   }
-
 }
